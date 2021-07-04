@@ -21,5 +21,5 @@ Stardew Expansion was an expansion mod of stardew valley that originally got rel
 
 # CONFIG
 
-CustomFarmMap : Do you want stardew expansions’s farm map? False will remove the warp from Hills and add a busstop2/3 warp in the busstop (should be out of the way)
+CustomFarmMap : Do you want stardew expansions’s farm map? False will remove the warp from Hills and add a busstop2/3 warp in the busstop (should be out of the way).
 SecretWoodsEdit: If false, doesn’t edit the secret woods and changes the warp to be in the Forest.
