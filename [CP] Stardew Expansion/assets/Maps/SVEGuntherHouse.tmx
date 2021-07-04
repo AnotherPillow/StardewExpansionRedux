@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="25">
+ <properties>
+  <property name="Warp" value="6 21 Custom_TSVgasstation 6 11"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="581">
+   <animation>
+    <frame tileid="581" duration="550"/>
+    <frame tileid="550" duration="550"/>
+    <frame tileid="581" duration="550"/>
+    <frame tileid="582" duration="550"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2213" name="sve" tilewidth="16" tileheight="16" tilecount="1127" columns="23">
+  <image source="SVEinteriors.png" width="368" height="784"/>
+  <tile id="223">
+   <animation>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="225" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="223" duration="500"/>
+    <frame tileid="223" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="224">
+   <animation>
+    <frame tileid="224" duration="500"/>
+    <frame tileid="226" duration="500"/>
+    <frame tileid="224" duration="500"/>
+    <frame tileid="224" duration="500"/>
+    <frame tileid="224" duration="500"/>
+    <frame tileid="224" duration="500"/>
+    <frame tileid="224" duration="500"/>
+    <frame tileid="224" duration="500"/>
+    <frame tileid="224" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="25" height="25">
+  <data encoding="csv">
+0,67,67,67,67,67,67,67,67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,67,35,35,35,35,35,35,67,0,0,0,0,0,0,0,0,2470,2470,2470,2470,2470,2470,2470,0,
+0,67,67,67,67,67,67,67,67,0,0,0,0,0,0,0,0,2493,2493,2493,2493,2493,2493,2493,0,
+0,99,99,99,99,99,99,99,99,0,0,0,0,0,0,0,0,2516,2516,2516,107,2516,2516,2516,0,
+0,2540,2541,2541,2541,2541,2541,2541,2542,2470,2470,2470,2470,2470,2470,2470,2470,200,200,229,200,229,200,200,125,
+0,2563,2564,2564,2564,2564,2564,2562,2565,2493,2493,2493,2493,2493,2493,2493,2493,233,232,261,233,261,264,264,2120,
+0,2563,2564,2564,2564,2564,2564,2564,2565,2516,2516,2516,2516,2516,2516,2516,2516,233,232,233,264,264,232,233,2120,
+0,2563,2564,2564,2564,2564,2564,2564,2565,200,201,200,201,200,201,200,201,200,201,233,232,233,233,233,2120,
+0,2586,2587,2587,2587,2587,2587,2587,2588,0,0,0,0,0,0,0,0,0,0,0,233,233,2120,125,125,
+0,2470,2470,2470,2470,2470,2470,329,2470,2470,0,0,34,35,35,35,35,35,35,35,35,35,35,36,0,
+0,2493,2493,2493,2493,2493,2493,264,2493,2493,0,0,66,67,67,67,67,67,67,67,67,67,67,68,0,
+0,2516,2516,2516,2516,2516,2516,2119,2516,2516,0,0,98,0,0,0,0,0,0,0,0,0,0,100,0,
+0,199,201,200,201,200,201,2151,201,231,2470,2470,199,200,200,200,229,200,200,200,200,229,200,231,201,
+0,232,446,447,448,2120,233,232,233,232,2493,2493,232,264,2152,2120,261,264,2152,2120,265,261,2152,2120,265,
+0,264,478,479,480,264,264,2120,265,264,2516,2516,264,232,233,2120,233,232,233,2120,233,232,233,2120,233,
+0,232,232,233,2120,232,233,2120,2120,232,200,201,200,0,233,2120,233,232,233,264,264,264,2152,2120,265,
+0,265,232,233,2120,233,233,2120,233,233,232,233,265,0,232,233,232,233,2120,232,233,232,233,2120,233,
+0,265,232,233,264,264,233,264,264,265,265,2152,233,1228,264,265,264,2152,2120,232,233,232,233,2120,233,
+0,265,233,2120,232,233,2120,232,233,265,264,264,233,1,232,233,232,233,2120,264,2152,264,2152,2120,265,
+0,265,265,265,265,265,265,265,265,265,232,233,264,1,264,233,232,233,2120,264,2152,264,2152,2120,233,
+1,1,1,1,1,1,293,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="25" height="25">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11,11,11,11,11,11,11,1,
+1,1,597,598,0,567,568,226,36,1,1,1,1,1,1,1,1,0,0,1427,1427,1427,1427,1427,1,
+1,66,629,630,0,570,571,258,68,1,1,1,1,1,1,1,1,75,75,75,75,75,75,75,1,
+1,98,599,600,601,602,603,99,100,55,0,0,0,0,0,0,1,107,107,107,0,107,107,107,1,
+1,130,631,632,633,634,635,496,132,55,0,2504,2436,2437,0,0,56,0,0,0,357,358,2642,0,1,
+1,0,0,0,0,0,0,0,0,87,75,75,75,75,75,75,88,0,0,0,387,388,0,0,1,
+1,0,490,0,0,0,0,0,0,119,107,107,107,107,107,107,120,121,1,0,321,322,0,714,1,
+1,0,656,657,658,0,0,0,0,0,0,0,0,0,0,0,0,0,129,0,0,0,0,746,1,
+1,0,688,689,690,457,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1430,1427,1427,1427,1427,56,0,55,1429,0,0,1430,1427,1427,1427,1427,1427,1427,1427,1427,1427,1427,1429,1,
+1,74,75,75,580,581,88,0,87,76,0,0,74,75,308,75,75,578,579,578,579,75,75,76,1,
+1,106,107,107,612,613,107,0,119,108,0,0,106,107,107,107,107,610,611,610,611,107,107,108,1,
+1,138,582,0,644,645,0,0,0,140,55,56,138,0,0,432,584,642,643,642,643,584,650,140,1,
+1,0,0,0,0,0,0,0,650,0,87,88,0,0,0,0,0,0,0,845,0,0,676,0,1,
+1,769,0,0,0,0,0,0,0,432,119,120,121,165,1,0,0,0,0,0,0,0,0,0,1,
+1,801,0,0,0,0,0,0,0,0,2148,0,0,1,1,678,716,0,0,0,0,0,587,588,1,
+1,833,0,0,0,0,0,0,0,0,0,0,0,1,1,710,711,496,0,0,0,0,619,620,1,
+1,865,650,0,0,0,0,0,609,0,0,0,0,1,1,0,780,0,0,0,0,0,614,615,1,
+1,0,0,0,0,0,0,0,0,0,0,676,0,1,1,0,0,432,0,0,0,0,646,647,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,
+1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="96" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say It looks like Gunther doesn't eat at home."/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say It's empty."/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="352" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say A dirty magazine."/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="192" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say It says: &quot;Amelia - Hiccup Hills House&quot;. There's a girl in front of a blue house and a pond. "/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="208" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say It says: &quot;Amelia - Hiccup Hills House&quot;. There's a girl in front of a blue house and a pond. "/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="272" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="368" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Some magazines. These are definitely not about archaeology. Better put those back."/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="48" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Gunther's diary."/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="64" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Lots of books"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="80" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Lots of books"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="240" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Nothing interesting."/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="272" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Lots of geology books."/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="288" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say &quot;Digging 101&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="320" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say An Arizona Smith novel"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="128" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Letter Dear Gunther,^Let us say this once more - you are not an archeologist, you are at most a geologist.^You have not discovered a single thing by yourself in your entire life.^Please stop writing to us.^Yours sincerely, ^Zuzu Archaeological Society"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="352" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say A blank book."/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="144" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say A book about some stones. Looks dull."/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="192" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="240" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say There's Pelican Town."/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="272" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Lots of paper and tissues."/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="32" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say A letter from Zuzu Archaeological Society"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="176" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say &quot;Archaeology for dummies&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="272" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say &quot;Living in a small village - how to fit in&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="352" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Many outfits looking all the same."/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="25" height="25">
+  <data encoding="csv">
+1,2,3,3,3,3,3,3,4,0,0,0,0,0,0,0,10,11,0,0,0,0,0,11,12,
+33,34,0,0,0,0,0,0,36,37,0,0,0,0,0,0,65,1427,1427,257,0,257,0,0,69,
+65,0,0,0,0,0,0,0,0,69,0,0,0,0,0,0,65,0,0,289,0,289,0,0,69,
+65,0,368,0,0,0,0,464,0,194,3,3,3,3,3,3,195,0,0,0,325,326,0,0,69,
+65,0,0,0,0,0,0,0,0,1426,1427,1427,1427,1427,1427,1427,1428,57,0,0,355,356,0,0,69,
+65,0,0,0,0,0,0,0,0,0,0,2527,2459,2460,0,0,0,89,101,0,0,0,0,682,69,
+65,0,624,625,626,0,0,0,0,0,0,0,0,0,0,0,0,0,133,0,0,0,0,810,69,
+65,0,0,432,513,425,0,0,164,166,166,166,166,166,166,166,166,167,129,162,166,166,166,167,168,
+161,193,197,197,197,197,198,0,194,4,0,1,2,3,3,3,3,3,3,3,3,3,3,4,0,
+33,42,0,0,0,0,1428,0,1426,44,37,33,42,0,0,0,226,0,0,0,0,226,0,44,37,
+65,0,0,0,0,0,0,0,0,0,69,65,0,0,0,0,258,0,0,0,0,258,0,0,69,
+65,0,550,0,0,0,0,0,0,0,194,195,0,0,0,0,552,0,0,0,0,552,0,0,69,
+65,0,0,0,0,0,0,0,0,0,1426,1428,57,0,0,0,0,0,0,0,0,0,0,0,69,
+65,737,0,0,0,0,0,0,0,0,0,0,0,164,163,0,0,0,0,0,0,0,0,0,69,
+65,0,0,0,0,0,0,0,0,0,2116,0,0,69,65,0,684,0,0,0,0,0,555,556,69,
+65,0,0,0,0,0,0,0,0,0,0,0,0,69,65,577,679,464,0,0,0,0,0,0,69,
+65,0,0,0,0,0,0,0,0,0,0,0,0,69,65,0,748,0,0,0,0,0,0,0,69,
+65,0,0,0,0,0,0,0,0,0,0,0,0,69,65,0,0,0,0,0,0,0,0,0,69,
+65,0,0,0,0,0,0,0,0,0,0,0,0,69,65,0,0,0,0,0,0,0,0,0,69,
+97,197,197,197,197,163,0,164,197,197,197,197,197,131,161,162,166,166,166,166,166,166,166,167,168,
+0,0,0,0,0,97,197,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="25" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

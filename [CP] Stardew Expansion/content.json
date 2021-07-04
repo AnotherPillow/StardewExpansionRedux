@@ -1,0 +1,229 @@
+{
+    "Format": "1.21",
+    "CustomLocations": [
+        // add the in-game location
+        {
+            "Name": "Custom_TSVAmedHouse",
+            "FromMapFile": "assets/Maps/SVEAmedHouse.tmx"
+        },
+        {
+            "Name": "Custom_TSVAmedBasement",
+            "FromMapFile": "assets/Maps/SVEAmedBasement.tmx"
+        },
+        {
+            "Name": "Custom_TSVDiner",
+            "FromMapFile": "assets/Maps/SVEDiner.tmx"
+        },
+        {
+            "Name": "Custom_TSVgasstation",
+            "FromMapFile": "assets/Maps/SVEgasstation.tmx"
+        },
+        {
+            "Name": "Custom_TSVHHH",
+            "FromMapFile": "assets/Maps/SVEHHH.tmx"
+        },
+        {
+            "Name": "Custom_TSVHiccupHills",
+            "FromMapFile": "assets/Maps/SVEHiccupHills.tmx"
+        },
+        {
+            "Name": "Custom_TSVJackieHouse",
+            "FromMapFile": "assets/Maps/SVEJackieHouse.tmx"
+        },
+        {
+            "Name": "Custom_TSVJojaEnergy",
+            "FromMapFile": "assets/Maps/SVEjojaenergy.tmx"
+        },
+        {
+            "Name": "Custom_TSVroad",
+            "FromMapFile": "assets/Maps/SVEroad.tmx"
+        },
+        {
+            "Name": "Custom_TSVWashroom",
+            "FromMapFile": "assets/Maps/SVEWashroom.tmx"
+        },
+        {
+            "Name": "Custom_TSVWinery",
+            "FromMapFile": "assets/Maps/SVEWinery.tmx"
+        },
+        {
+            "Name": "Custom_TSVWineryCellar",
+            "FromMapFile": "assets/Maps/SVEWineryCellar.tmx"
+        },
+        {
+            "Name": "Custom_TSVGuntherHouse",
+            "FromMapFile": "assets/Maps/SVEGuntherHouse.tmx"
+        }
+    ],
+    "ConfigSchema": {
+        "CustomFarmMap": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "SecretWoodsEdit": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        }
+    },
+
+    "Changes":[
+        {
+            "Action": "Load",
+            "Target": "Maps/Farm",
+            "FromFile": "assets/Farm.tbin",
+            "When": {
+              "CustomFarmMap": "true"
+                    },
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Woods",
+            "FromFile": "assets/Woods.tbin",
+            "When": {
+              "SecretWoodsEdit": "true"
+                    },
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/spring_SVEfarmexpansion, Maps/summer_SVEfarmexpansion, Maps/fall_SVEfarmexpansion , Maps/winter_SVEfarmexpansion,Maps/spring_SVEoutdoors, Maps/summer_SVEoutdoors, Maps/fall_SVEoutdoors, Maps/winter_SVEoutdoors, Maps/SVEinteriors",
+            "FromFile": "assets/TileSheets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Tunnel",
+            "FromFile": "assets/Maps/BarrierGone.tmx",
+            "ToArea": {
+                "X": 6,
+                "Y": 6,
+                "Width": 1,
+                "Height": 7
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "MapProperties",
+                        "Warp"
+                    ],
+                    "Value": "-1 7 Custom_TSVRoad 55 31 -1 8 Custom_TSVRoad 55 32 -1 9 Custom_TSVRoad 55 33 -1 10 Custom_TSVRoad 55 34 -1 11 Custom_TSVRoad 55 35",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_TSVfarmexpansion",
+            "FromFile": "assets/Maps/SVEfarmexpansion2.tmx",
+            "ToArea": {
+                "X": 8,
+                "Y": 0,
+                "Width": 11,
+                "Height": 10
+            },
+            "When": {
+                "HasFlag: hostPlayer": "89680001"
+                    },
+             "Update": "OnLocationChange",
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_TSVfarmexpansion",
+            "FromFile": "assets/Maps/SVEfarmexpansion3.tmx",
+            "ToArea": {
+                "X": 26,
+                "Y": 23,
+                "Width": 11,
+                "Height": 10
+            },
+            "When": {
+                "HasFlag: hostPlayer": "89680001"
+                    },
+             "Update": "OnLocationChange",
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Hills",
+            "FromFile": "assets/Hills2.tbin",
+            "ToArea": {
+                "X": 47,
+                "Y": 17,
+                "Width": 3,
+                "Height": 8
+            },
+            "When": {
+              "CustomFarmMap": "false"
+                    },
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Hills",
+            "When": {
+              "SecretWoodsEdit": "true"
+            },
+            "AddWarps": [
+              "11 76 Woods 81 3",
+              "12 76 Woods 82 3",
+              "13 76 Woods 83 3"
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "assets/Forest2.tbin",
+            "ToArea": {
+                "X": 54,
+                "Y": 0,
+                "Width": 8,
+                "Height": 10
+            },
+            "AddWarps": [
+              "57 -1 Hills 11 74",
+              "58 -1 Hills 13 74",
+            ],
+            "When": {
+              "SecretWoodsEdit": "false"
+                    },
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Hills",
+            "When": {
+              "SecretWoodsEdit": "false"
+            },
+            "AddWarps": [
+              "11 76 Forest 57 0",
+              "12 76 Forest 57 0",
+              "13 76 Forest 58 0"
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/BusStop",
+            "FromFile": "assets/BusStop4.tbin",
+            "ToArea": {
+                "X": 28,
+                "Y": 20,
+                "Width": 7,
+                "Height": 10
+            },
+            "When": {
+              "CustomFarmMap": "false"
+            },
+            "AddWarps": [
+              "30 27 Custom_BusStop3 29 1",
+              "31 27 Custom_BusStop3 30 1"
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_BusStop3",
+            "When": {
+              "CustomFarmMap": "false"
+            },
+            "AddWarps": [
+              "29 0 BusStop 30 25",
+              "30 0 BusStop 31 25"
+            ]
+        },
+    ]
+}

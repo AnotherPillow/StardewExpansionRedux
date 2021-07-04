@@ -1,0 +1,24 @@
+
+xnbData: 
+    target: "w"
+    compressed: false
+    hiDef: true
+    readerData: 
+        - 
+            type: "xTile.Pipeline.TideReader, xTile"
+            version: 0
+
+
+    numSharedResources: 0
+
+content: {} #!TBin
+extractedMaps: 
+    - 
+        path: ""
+        tilesheets: 
+            - "mine.png"
+            - "paths.png"
+            - "zcustom02.png"
+
+
+

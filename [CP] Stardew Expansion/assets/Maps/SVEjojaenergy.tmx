@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="22" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="16">
+ <properties>
+  <property name="AmbientLight" value="0 0 0"/>
+  <property name="Warp" value="10 15 Custom_TSVGasStation 43 31 11 15 Custom_TSVGasStation 44 31"/>
+ </properties>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="sve" tilewidth="16" tileheight="16" tilecount="1127" columns="23">
+  <image source="SVEinteriors.png" width="368" height="784"/>
+ </tileset>
+ <layer id="1" name="Back" width="22" height="15">
+  <data encoding="csv">
+109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,
+109,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,109,
+109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,109,
+132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,
+61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61
+</data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="22" height="15">
+  <data encoding="csv">
+37,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,39,
+60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,
+60,0,0,0,0,0,0,0,110,0,0,0,0,0,0,0,0,0,0,0,0,62,
+60,0,0,0,0,0,0,0,133,0,0,0,0,0,0,0,0,0,0,0,0,62,
+60,0,0,0,0,135,135,136,0,162,163,164,165,166,89,90,181,89,90,201,202,62,
+60,0,0,0,0,0,0,72,0,0,0,0,0,0,0,0,0,0,0,0,0,62,
+60,89,90,91,92,93,94,95,0,0,0,0,0,0,0,0,0,0,0,0,0,62,
+60,0,0,0,0,0,0,0,0,169,170,0,0,169,170,0,0,169,170,0,145,62,
+60,0,0,0,0,0,0,0,0,192,193,0,0,192,193,0,0,192,193,0,168,62,
+60,0,0,0,0,0,0,0,0,215,216,0,0,217,218,0,0,219,220,0,145,62,
+60,182,183,181,0,0,0,0,0,238,239,0,0,240,241,0,0,242,243,0,168,62,
+60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,
+60,0,137,138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,
+83,0,0,0,182,183,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,
+153,153,153,153,153,153,153,153,153,83,0,0,85,153,153,153,153,153,153,153,153,153
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="160" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Frozen Dried Milk Yoghurt"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="192" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Frozen pizza slices"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="208" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Jeremy's Chicken wings - 10% real chicken!"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="224" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Farming magazines"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="240" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Hike &amp; Bike"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="272" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say CELEBRITY - Queen of Sauce private tapes leaked!!"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="288" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Magic News - Junimos - real or not?"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="304" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="ColaMachine"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="320" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="ColaMachine"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="112" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Stardew Valley souvenirs"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="112" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Stardew Valley souvenirs"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="160" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Chocolate drinks"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="208" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Custom Milk"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="160" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Overpriced chocolate bars."/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="208" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Powdered fish"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Paths" width="22" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,2,6,4,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,7,0,0,0,0,
+0,0,0,0,0,0,0,0,0,8,0,0,0,0,7,0,0,7,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,7,0,0,7,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,7,0,0,7,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,7,0,0,7,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,8,5,0,0,7,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,7,0,0,7,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,7,0,0,7,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Paths"/>
+ <layer id="7" name="Front" width="22" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,116,117,118,119,120,43,44,0,43,44,155,156,0,
+0,0,0,0,0,112,112,112,0,139,140,141,142,143,66,67,0,66,67,178,179,0,
+0,0,0,0,0,0,0,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,66,67,68,69,70,71,0,0,123,124,0,0,123,124,0,0,123,124,0,0,0,
+0,0,0,0,0,0,0,0,0,146,147,0,0,146,147,0,0,146,147,0,122,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,0,
+0,159,160,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,114,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,159,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,84,84,84,84,84,84,84,84,40,0,0,41,84,84,84,84,84,84,84,84,0,
+0,0,0,0,0,0,0,0,0,0,84,84,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+ <layer id="9" name="AlwaysFront" width="22" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,43,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,150,172,0,0,0,0,0,0,150,0,0,0,0,
+0,0,0,0,0,0,0,0,0,194,195,0,0,0,172,0,0,148,174,0,0,0,
+0,0,0,0,0,0,0,0,0,173,149,0,0,0,197,0,0,0,195,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>
