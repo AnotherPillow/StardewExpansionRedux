@@ -1,0 +1,59 @@
+{
+  "addMaps": [
+    {
+      "name": "basement",
+	  "addLocation": true,
+      "file": "assets/Cellar2.tbin",
+    },
+    {
+      "name": "Hills",
+    "addLocation": true,
+      "file": "assets/Hills.tbin",
+    },
+    {
+      "name": "Aspengrove",
+    "addLocation": true,
+      "file": "assets/Aspengrove.tbin",
+    },
+    {
+      "name": "Custom_BusStop2",
+    "addLocation": true,
+      "file": "assets/BusStop2.tbin",
+    },
+    {
+      "name": "Custom_BusStop3",
+    "addLocation": true,
+      "file": "assets/BusStop3.tbin",
+    },
+    {
+      "name": "HillsCave",
+    "addLocation": true,
+      "file": "assets/HillsCave.tbin",
+    },
+    {
+      "name": "HillsHouse",
+    "addLocation": true,
+      "file": "assets/HillsHouse.tbin",
+    },
+    {
+      "name": "HillsHouseUp",
+    "addLocation": true,
+      "file": "assets/HillsHouseUp.tbin",
+    },
+    {
+      "name": "HotCave",
+    "addLocation": true,
+      "file": "assets/HotCave.tbin",
+    },
+    {
+      "name": "Riverbank",
+    "addLocation": true,
+      "file": "assets/Riverbank.tbin",
+    },
+    {
+      "name": "Custom_TSVfarmexpansion",
+    "addLocation": true,
+      "file": "assets/maps/SVEfarmexpansion.tmx",
+    },
+],
+}

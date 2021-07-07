@@ -1,0 +1,58 @@
+//shops.json for Stardew Expansion Redux
+
+{
+	"Shops":
+	[
+	{
+
+		"ShopName": "Diner",
+
+		"CategoriesToSellHere": [ -7, -8, -26, -27 ],
+
+		"ItemStocks": [
+
+
+			//items please worky game tysm
+			{
+				"StockPrice": 75,
+				"ItemType": "Object",
+				"ItemNames": [ "Bread", ]
+			},
+
+			{
+				"StockPrice": 100,
+				"ItemType": "Object",
+				"ItemNames": [ "Field Snack", ]
+			},
+
+			{
+				"StockPrice": 300,
+				"ItemType": "Object",
+				"ItemNames": [ "Plum Pudding", ]
+			},
+
+			{
+				"StockPrice": 150,
+				"ItemType": "Object",
+				"ItemNames": [ "Coffee", ]
+			},
+
+			{
+				"StockPrice": 125,
+				"ItemType": "Object",
+				"ItemNames": [ "Hashbrowns", ]
+			},
+
+			{
+				"StockPrice": 155,
+				"ItemType": "Object",
+				"ItemNames": [ "Green Tea", ]
+			},
+
+
+		],
+
+	 },
+	 ]
+
+}
