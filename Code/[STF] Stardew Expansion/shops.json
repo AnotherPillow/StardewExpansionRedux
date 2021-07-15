@@ -6,9 +6,8 @@
 	{
 
 		"ShopName": "Diner",
-
-		"CategoriesToSellHere": [ -7, -8, -26, -27 ],
-
+    "PortraitPath": "ShopVendors/LuckyShop.png",
+    "Quote": "Welcome to Lucky's Diner!",
 		"ItemStocks": [
 
 

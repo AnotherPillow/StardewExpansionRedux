@@ -1,0 +1,20 @@
+{
+  "Name": "Pink Animals For TSV",
+  "Author": "mmmmm",
+  "Version": "1.0.0",
+  "Description": "Adds pink animals to the farm in TSV.",
+  "UniqueID": "mmmmm.PinkAnimalsCC",
+  "UpdateKeys": [],
+  "Dependencies": [
+		{
+			"UniqueID": "PeacefulEnd.CustomCompanions",
+		},
+		{
+			"UniqueID": "Pillow.StardewExpansion.CP",
+		},
+	],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.CustomCompanions",
+    "MinimumVersion": "1.4.3"
+                    }
+}

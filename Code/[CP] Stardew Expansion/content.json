@@ -53,12 +53,20 @@
         {
             "Name": "Custom_TSVGuntherHouse",
             "FromMapFile": "assets/Maps/SVEGuntherHouse.tmx"
-        }
+        },
+        {
+            "Name": "Custom_TSVFarm",
+            "FromMapFile": "assets/Maps/SVEFarm.tmx"
+        },
+        {
+            "Name": "Custom_PinkAnimalWarpRoom",
+            "FromMapFile": "assets/Maps/PinkAnimalsWarpRoom.tmx"
+        },
     ],
     "ConfigSchema": {
         "CustomFarmMap": {
             "AllowValues": "true, false",
-            "Default": "true"
+            "Default": "false"
         },
         "SecretWoodsEdit": {
             "AllowValues": "true, false",
@@ -224,6 +232,107 @@
               "29 0 BusStop 30 25",
               "30 0 BusStop 31 25"
             ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Backwoods",
+            "FromFile": "assets/Maps/Backwoods.tmx",
+            "ToArea": {
+                "X": 8,
+                "Y": 24,
+                "Width": 7,
+                "Height": 9
+            },
+            "When": {
+                "HasFlag: hostPlayer": "89680001"
+                    },
+             "Update": "OnLocationChange",
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_TSVfarmexpansion",
+            "FromFile": "assets/Maps/SVEfarmexpansion4.tmx",
+            "ToArea": {
+                "X": 3,
+                "Y": 3,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "HasFlag: hostPlayer": "89680001"
+                    },
+             "Update": "OnLocationChange",
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_TSVFarm",
+            "MapTiles": [
+          {
+             "Position": {
+               "X": "15",
+               "Y": "7"
+          },
+             "Layer": "Back",
+             "SetProperties": {
+                "CustomCompanions": "Spawn 1 mmmmm.PinkAnimalsCC.PinkChicken"
+             },
+          },
+       ],
+       "When": {
+         "HasMod |contains= mmmmm.PinkAnimalsCC": true,
+       },
+       "Update": "OnLocationChange"
+        },
+        {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_TSVFarm",
+        "MapTiles": [
+      {
+         "Position": {
+           "X": "{{Random: 2, 6 |key=tile coordinate}}",
+           "Y": "{{Random: 3, 6 |key=tile coordinate}}"
+      },
+         "Layer": "Back",
+         "SetProperties": {
+            "CustomCompanions": "Spawn 1 mmmmm.PinkAnimalsCC.CherryBlossomRabbit"
+         },
+      },
+   ],
+   "When": {
+     "HasMod |contains= mmmmm.PinkAnimalsCC": true,
+   },
+   "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_PinkAnimalWarpRoom",
+            "When": {
+               "Time": "0700"
+            },
+             "AddWarps": [
+               "2 2 Custom_TSVFarm 16 7"
+             ],
+            "Update": "OnTimeChange"
+        },
+        {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_PinkAnimalWarpRoom",
+        "MapTiles": [
+      {
+         "Position": {
+           "X": "2",
+           "Y": "2"
+      },
+         "Layer": "Back",
+         "SetProperties": {
+            "CustomCompanions": "Spawn 1 mmmmm.PinkAnimalsCC.PinkSheep"
+         },
+      },
+   ],
+   "When": {
+     "HasMod |contains= mmmmm.PinkAnimalsCC": true,
+   },
+   "Update": "OnTimeChange"
         },
     ]
 }

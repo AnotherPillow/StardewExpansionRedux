@@ -1,7 +1,7 @@
 {
   "Name": "Stardew Expansion Redux TMX",
   "Author": "Pillow",
-  "Version": "1.4",
+  "Version": "1.4.0",
   "Description": "TMXL component of the updated version of Stardew Expansion",
   "UniqueID": "Pillow.StardewExpansion.TMX",
   "UpdateKeys": [ "Nexus:8968" ],

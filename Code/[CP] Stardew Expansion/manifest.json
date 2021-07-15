@@ -1,7 +1,7 @@
 {
   "Name": "Stardew Expansion Redux CP",
   "Author": "Pillow",
-  "Version": "1.4",
+  "Version": "1.4.0",
   "Description": "CP component of the updated version of Stardew Expansion. Thanks Lemurkat for the town area code.",
   "UniqueID": "Pillow.StardewExpansion.CP",
   "UpdateKeys": [ "Nexus:8968" ],
